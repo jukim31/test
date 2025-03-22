@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Web Page</title>
+    <title>My Test Page</title>
     <script src="test.js"></script> <!-- Link to your JavaScript file -->
 </head>
 <body>
@@ -12,9 +12,13 @@
     </header>
     <main>
         <p>This is a basic web page created with HTML.</p>
-        <!-- Add a button to trigger the JavaScript function -->
-        <button onclick="showAlert()">Click me to see an alert!</button>
+        <h2>My First JavaScript</h2>
+        <button type="button"
+            onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
+        
+        <p id="demo"></p>
     </main>
+    <script src="test.js"></script>
     <footer>
         <p>&copy; 2025 Jin Kim</p>
     </footer>
